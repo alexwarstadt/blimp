@@ -1,6 +1,9 @@
 # BLiMP: The Benchmark of Linguistic Minimal Pairs
 
-Downloadable BLiMP data and supplementary materials. BLiMP is a challenge set for evaluating what language models (LMs) know about major grammatical phenomena in English. BLiMP consists of 67 sub-datasets, included in this repository under _data_, each containing 1000 minimal pairs isolating specific contrasts in syntax, morphology, or semantics. The data is automatically generated according to expert-crafted grammars, which can be accessed in the following repository: https://github.com/alexwarstadt/data_generation. Aggregate human agreement with the labels is 96.4%, and human judgments are available in this repository under _raw\_results_. We use BLiMP to evaluate an _n_-gram LM, LSTM LM, GPT-2, and Transformer-XL, and a summary of results by model is available in this repository under _raw\_results_.
+BLiMP is a challenge set for evaluating what language models (LMs) know about major grammatical phenomena in English. BLiMP consists of 67 sub-datasets, included in this repository under _data_, each containing 1000 minimal pairs isolating specific contrasts in syntax, morphology, or semantics. The data is automatically generated according to expert-crafted grammars, which can be accessed in the following repository: https://github.com/alexwarstadt/data_generation. Aggregate human agreement with the labels is 96.4%, and human judgments are available in this repository under _raw\_results_. We use BLiMP to evaluate an _n_-gram LM, LSTM LM, GPT-2, and Transformer-XL, and a summary of results by model is available in this repository under _raw\_results_.
+
+## Repository Contents
+- The BLiMP paper: _BLiMP.pdf_
 
 ## Data
 
