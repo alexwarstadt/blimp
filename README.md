@@ -29,6 +29,6 @@ Each contains 1000 lines in json format, with the following fields:
 - "pairID": A number from 0-999 identifying the index of the pair in the paradigm.
 
 ## The BLiMP Icon
-The icon used to refer to BLiMP in the paper is included in this repository as _blimp\_icon.jpg_. To include this icon in your paper, you can use the following macro in LaTex:
+The icon used to refer to BLiMP in the paper is included in this repository as ```blimp/blimp\_icon.jpg```. To include this icon in your paper, you can use the following macro in LaTex:
 
 ```\def\BLiMP{\scalerel*{\includegraphics{blimp_icon.jpg}}{X}\,}```
