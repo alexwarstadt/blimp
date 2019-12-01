@@ -12,6 +12,12 @@ BLiMP is a challenge set for evaluating what language models (LMs) know about ma
 - Description of all paradigms: ```blimp/supplemental_materials/BLiMP_Paradigms.pdf```
 - Results plots for all paradigms: ```blimp/supplemental_materials/figures/*```
 
+## External Links
+- Data generation code: https://github.com/alexwarstadt/data_generation
+- _n_-gram implementation: https://github.com/anhad13/blimp_ngram
+- LSTM LM implementation: https://github.com/sheng-fu/colorlessgreenRNNs
+- GPT-2 and Transformer-XL implementations (jiant): https://github.com/nyu-mll/jiant/tree/blimp-and-npi/scripts/blimp 
+
 ## Data
 
 All 67 sub-datasets of BLiMP are available in .jsonl format.
