@@ -38,3 +38,12 @@ Each contains 1000 lines in json format, with the following fields:
 The icon used to refer to BLiMP in the paper is included in this repository as ```blimp/blimp\_icon.jpg```. To include this icon in your paper, you can use the following macro in LaTex (make sure you include packages ```graphicx``` and ```scalerel``` and add the ```blimp_icon.jpg``` to your project):
 
 ```\def\BLiMP{\scalerel*{\includegraphics{blimp_icon.jpg}}{X}\,}```
+
+## Recommended Citation
+If you use BLiMP in your work, please cite it as follows:
+```@article{warstadt2019blimp,
+  title={BLiMP: A Benchmark of Linguistic Minimal Pairs for English},
+  author={Warstadt, Alex and Parrish, Alicia and Liu, Haokun and Mohananey, Anhad and Peng, Wei, and Wang, Sheng-Fu and Bowman, Samuel R},
+  journal={arXiv preprint arXiv:1912.00582},
+  year={2019}
+}```
