@@ -41,9 +41,11 @@ The icon used to refer to BLiMP in the paper is included in this repository as `
 
 ## Recommended Citation
 If you use BLiMP in your work, please cite it as follows:
-```@article{warstadt2019blimp,
+```
+@article{warstadt2019blimp,
   title={BLiMP: A Benchmark of Linguistic Minimal Pairs for English},
   author={Warstadt, Alex and Parrish, Alicia and Liu, Haokun and Mohananey, Anhad and Peng, Wei, and Wang, Sheng-Fu and Bowman, Samuel R},
   journal={arXiv preprint arXiv:1912.00582},
   year={2019}
-}```
+}
+```
