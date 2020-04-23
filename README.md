@@ -3,7 +3,7 @@
 BLiMP is a challenge set for evaluating what language models (LMs) know about major grammatical phenomena in English. BLiMP consists of 67 sub-datasets, each containing 1000 minimal pairs isolating specific contrasts in syntax, morphology, or semantics. The data is automatically generated according to expert-crafted grammars. Aggregate human agreement with the labels is 96.4%. We use BLiMP to evaluate an _n_-gram LM, LSTM LM, GPT-2, and Transformer-XL.
 
 ## Repository Contents
-- BLiMP data: ```blimp/data/```
+- BLiMP data: ```blimp/data/``` and ```blimp/BLiMP.zip```
 - The BLiMP paper: ```blimp/BLiMP.pdf```
 - The BLiMP icon: ```blimp/blimp_icon.jpg```
 - Summary of model results for all paradigms: ```blimp/raw_results/blimp_full_results_summary.csv```
