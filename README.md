@@ -60,4 +60,4 @@ If you use BLiMP in your work, please cite it as follows:
 ```
 
 ## Updates & Errata
-**16 August 2021** Some results were mis-reported in the published TACL version. If you wish to cite specific numbers from the results, please consult the results files in this repo, or the corrected .pdf in this repo and on [arxiv](https://arxiv.org/pdf/1912.00582.pdf).
+**16 August 2021** Some results in Tables 3 and 4 were mis-reported in the published TACL version. If you wish to cite specific numbers from the results, please consult the results files in this repo, or the corrected .pdf in this repo and on [arxiv](https://arxiv.org/pdf/1912.00582.pdf).
