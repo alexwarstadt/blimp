@@ -26,7 +26,7 @@ total_overall["UID"] = "overall"
 total_overall["linguistics_term"] = "overall"
 
 results = pd.concat([results, term_overall, total_overall])
-results.drop(["index"], axis=1)
+results = results.drop(["index"], axis=1)
 
 
 results.to_json("../raw_results/summary/models_summary.jsonl", lines=True, orient="records")
