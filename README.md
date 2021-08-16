@@ -6,13 +6,11 @@ BLiMP is a challenge set for evaluating what language models (LMs) know about ma
 - BLiMP data: ```blimp/data/``` and ```blimp/BLiMP.zip``` (same contents)
 - The BLiMP paper: ```blimp/BLiMP.pdf```
 - The BLiMP icon: ```blimp/blimp_icon.jpg```
-- Summary of model results for all paradigms: ```blimp/raw_results/summary/models_summary.jsonl```
-- Summary of human validation results: ```blimp/raw_results/summary/human_validation_summary.csv```
-- Full model outputs for full sentence method: ```blimp/raw_results/all_outputs/*_outputs.jsonl```
-- Full model outputs for prefix methods: ```blimp/raw_results/all_outputs_prefix_methods```
-- Full human validation judgments: ```blimp/raw_results/all_outputs/human_responses.csv```
+- Summary of model results for all paradigms: ```blimp/raw_results/blimp_full_results_summary.csv```
+- Summary of human validation results: ```blimp/raw_results/blimp_human_validation_summary.csv```
+- Full human validation judgments: ```blimp/raw_results/blimp_human_validation_rawMTurk.csv```
 - Description of all paradigms: ```blimp/supplemental_materials/BLiMP_Paradigms.pdf```
-- Results plots for all paradigms: ```blimp/supplemental_materials/figures```
+- Results plots for all paradigms: ```blimp/supplemental_materials/figures/*```
 
 ## External Links
 - Data generation code: https://github.com/alexwarstadt/data_generation
@@ -58,6 +56,3 @@ If you use BLiMP in your work, please cite it as follows:
     abstract = { We introduce The Benchmark of Linguistic Minimal Pairs (BLiMP),1 a challenge set for evaluating the linguistic knowledge of language models (LMs) on major grammatical phenomena in English. BLiMP consists of 67 individual datasets, each containing 1,000 minimal pairs—that is, pairs of minimally different sentences that contrast in grammatical acceptability and isolate specific phenomenon in syntax, morphology, or semantics. We generate the data according to linguist-crafted grammar templates, and human aggregate agreement with the labels is 96.4\%. We evaluate n-gram, LSTM, and Transformer (GPT-2 and Transformer-XL) LMs by observing whether they assign a higher probability to the acceptable sentence in each minimal pair. We find that state-of-the-art models identify morphological contrasts related to agreement reliably, but they struggle with some subtle semantic and syntactic phenomena, such as negative polarity items and extraction islands. }
 }
 ```
-
-## Updates & Errata
-**16 August 2021** Some results were mis-reported in the published TACL version. If you wish to cite specific numbers from the results, please consult the results files in this repo, or the corrected .pdf in this repo and on [arxiv](https://arxiv.org/pdf/1912.00582.pdf).

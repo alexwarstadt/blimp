@@ -1,12 +1,10 @@
 # Author: Alex Warstadt
 # This script is used to put in a usable format results mturk downloaded from the BLiMP project google drive (not public)
-# TODO: This is unfinished
 
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv(
-    "../raw_results/google_drive_results_private/all_outputs_google_drive/human_responses.csv", header=0)
+df = pd.read_csv("../raw_results/all_outputs_google_drive/blimp_human_validation_rawMTurk.csv", header=0)
 df = df.drop(["HITTypeId", "Title", "Description", "Keywords", "Reward", "CreationTime", "MaxAssignments",
               "RequesterAnnotation", "AssignmentDurationInSeconds", "AutoApprovalDelayInSeconds", "Expiration",
               "NumberOfSimilarHITs", "LifetimeInSeconds", "AssignmentId", "AssignmentStatus", "AcceptTime",
