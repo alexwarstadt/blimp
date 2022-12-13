@@ -44,7 +44,7 @@ The icon used to refer to BLiMP in the paper is included in this repository as `
 ## Recommended Citation
 If you use BLiMP in your work, please cite it as follows:
 ```
-@article{warstadt2019blimp,
+@article{warstadt2020blimp,
     author = {Warstadt, Alex and Parrish, Alicia and Liu, Haokun and Mohananey, Anhad and Peng, Wei and Wang, Sheng-Fu and Bowman, Samuel R.},
     title = {BLiMP: The Benchmark of Linguistic Minimal Pairs for English},
     journal = {Transactions of the Association for Computational Linguistics},
@@ -58,6 +58,9 @@ If you use BLiMP in your work, please cite it as follows:
     abstract = { We introduce The Benchmark of Linguistic Minimal Pairs (BLiMP),1 a challenge set for evaluating the linguistic knowledge of language models (LMs) on major grammatical phenomena in English. BLiMP consists of 67 individual datasets, each containing 1,000 minimal pairs—that is, pairs of minimally different sentences that contrast in grammatical acceptability and isolate specific phenomenon in syntax, morphology, or semantics. We generate the data according to linguist-crafted grammar templates, and human aggregate agreement with the labels is 96.4\%. We evaluate n-gram, LSTM, and Transformer (GPT-2 and Transformer-XL) LMs by observing whether they assign a higher probability to the acceptable sentence in each minimal pair. We find that state-of-the-art models identify morphological contrasts related to agreement reliably, but they struggle with some subtle semantic and syntactic phenomena, such as negative polarity items and extraction islands. }
 }
 ```
+
+## License
+BLiMP is distributed under a [CC-BY](https://creativecommons.org/licenses/by/4.0/) license.
 
 ## Updates & Errata
 **16 August 2021** Some results in Tables 3 and 4 were mis-reported in the published TACL version. If you wish to cite specific numbers from the results, please consult the results files in this repo, or the corrected .pdf in this repo and on [arxiv](https://arxiv.org/pdf/1912.00582.pdf).
